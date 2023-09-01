@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">submission_android_pemula</string>
+
+    <string name="cat_name">Nama Kucing</string>
+    <string name="description">Deskripsi</string>
+
+    <string name="about">About</string>
+    <string name="myName">Yofhi Fauda Pradana</string>
+    <string name="asal_univ">Universitas Muhammadiyah Ponorogo</string>
+    <string name="summary">Deskripsi</string>
+    <string name="mySummary">Hello! Im Yofhi Fauda Pradana, a student majoring in Informatics Engineering at the Muhammadiyah University of Ponorogo who has a deep interest in mobile app development using Flutter and Android Kotlin. For some time, I have been exploring using Firebase to integrate cloud and data storage features within apps. My experience with Android Studio and Git for version control allows me to work in an efficient and organized team.Im always eager to expand my knowledge and stay up to date with the latest developments in the world of mobile development. Id love to connect with you. Lets join hands to create innovative solutions! Thank you for visiting my profile. Lets connect!</string>
+    <string name="email">Email</string>
+    <string name="email_value">yofhi132@gmail.com</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="linkedin_value">https://www.linkedin.com/in/yofhi-fauda-pradana/</string>
+    <string name="github">Github</string>
+    <string name="github_value">https://github.com/YofhiFauda</string>
+    <string name="detail_cat">Detail Kucing</string>
+
+</resources>

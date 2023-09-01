@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".yofhi.AboutActivity">
+
+    <!-- Card dengan latar belakang biru untuk Avatar, Nama, dan Univ -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blueCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="1dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/soft_blue">
+
+            <!-- Avatar -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_photo_profile"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="9dp"
+                android:src="@drawable/avatar" />
+
+            <!-- Nama -->
+            <TextView
+                android:id="@+id/my_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/myName"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- Universitas -->
+            <TextView
+                android:id="@+id/univ_asal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/asal_univ"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal" />
+
+            <View
+                android:id="@+id/view_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/white" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card dengan latar belakang merah untuk Deskripsi, Email, LinkedIn, dan GitHub -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/redCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="1dp"
+        app:layout_constraintTop_toBottomOf="@id/blueCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/soft_red">
+
+            <!-- Deskripsi -->
+            <TextView
+                android:id="@+id/deskripsiku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/summary"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/text_deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mySummary"
+                android:textSize="12sp"
+                android:ellipsize="end"/>
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/email_ku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/myEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_value"
+                android:textSize="12sp"/>
+
+            <!-- LinkedIn -->
+            <TextView
+                android:id="@+id/myLinkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linkedin"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/linkedinTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linkedin_value"
+                android:textSize="12sp" />
+
+            <!-- GitHub -->
+            <TextView
+                android:id="@+id/mygithub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/github"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/githubTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/github_value"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
