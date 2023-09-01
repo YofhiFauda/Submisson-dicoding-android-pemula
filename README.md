@@ -1,6 +1,6 @@
-# Submisson Dicoding Aplikasi Android Pemula
+# Submisson Dicoding Aplikasi Android Pemula #
 
-##SCREENSHOT DARI APLIKASI
+## SCREENSHOT DARI APLIKASI ##
 
 1. Tampilan Awal Ketika Membuka Aplikasi
 <img src="Screenshot 1.jpeg" alt="Alt Text 1" width="150">
@@ -11,4 +11,4 @@
 3. Tampilan About Aplikasi
 <img src="Screenshot 3.jpeg" alt="Alt Text 3" width="150">
    
-*TERIMA KASIH SUDAH BERKUNJUNG*
+# TERIMA KASIH SUDAH BERKUNJUNG #
